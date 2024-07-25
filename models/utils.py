@@ -2,7 +2,7 @@ import httpx,base64
 from fastapi import HTTPException
 from urllib.parse import unquote
 
-BASE = 'http://localhost:8000'
+BASE = 'https://divine-mirilla-haihn-08c9727d.koyeb.app/:8000'
 
 async def default():
     return ''
